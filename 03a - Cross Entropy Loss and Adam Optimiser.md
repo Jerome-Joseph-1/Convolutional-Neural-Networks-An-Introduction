@@ -1,5 +1,5 @@
 
-## Cross Entropy Loss
+# 03a - Cross Entropy Loss
 
 Imagine you're teaching a student (our neural network model) to solve complex problems (like identifying plant diseases from images). The student makes a guess at each problem and you need a way to tell how good their guess is.
 
@@ -18,8 +18,9 @@ Now, let's say our student needs guidance on what to study more. This is where t
 
 #### Visualizing the Adam Optimizer
 
-![[Gradient_descent_how_neural_networks_learn_Chapter_2_deep_learning.gif]]
-![[1_S6WOPG-wdxt6CRJzZUYMWA.gif]]
+![Gradient_descent_how_neural_networks_learn_Chapter_2_deep_learning](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/73121994-a35f-4428-b402-a1a7e326d5a3)
+
+![1_S6WOPG-wdxt6CRJzZUYMWA](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/3fd0c811-b7a6-406b-a728-0411ed1aecd1)
 - **Navigating a Landscape**: Picture the learning process as a journey across a landscape of hills and valleys. Each valley represents a possible solution, with the lowest point being the best one (minimum loss).
 
 - **The Role of Adam**: The Adam optimizer is like an advanced GPS system for this journey. It helps the student decide in which direction to go and how big a step to take.
