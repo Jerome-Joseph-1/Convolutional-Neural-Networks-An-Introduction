@@ -18,7 +18,10 @@ Now, let's say our student needs guidance on what to study more. This is where t
 
 #### Visualizing the Adam Optimizer
 
+
 ![Gradient_descent_how_neural_networks_learn_Chapter_2_deep_learning](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/73121994-a35f-4428-b402-a1a7e326d5a3)
+
+_P.S.: The image depicts the concept of gradient descent and not actually an Adam Optimizer_
 
 ![1_S6WOPG-wdxt6CRJzZUYMWA](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/3fd0c811-b7a6-406b-a728-0411ed1aecd1)
 - **Navigating a Landscape**: Picture the learning process as a journey across a landscape of hills and valleys. Each valley represents a possible solution, with the lowest point being the best one (minimum loss).
