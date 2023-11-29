@@ -1,4 +1,6 @@
-![[Pasted image 20231129232824.png]]
+# 01 - Convolutional Neural Networks
+
+![image](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/73b33f7a-534e-4fc8-83da-9f7be8ab61a2)
 
 Imagine you're looking at a picture, trying to recognize what's in it. Your brain doesn't just see a bunch of pixels; it recognizes patterns, shapes, edges, and textures. This is similar to how CNNs process images, but first, let's contrast this with how traditional Artificial Neural Networks (ANNs) work.
 
@@ -6,7 +8,7 @@ Imagine you're looking at a picture, trying to recognize what's in it. Your brai
 
 In ANNs, the input data is typically "flattened." Picture a 2D image - a grid of pixels, each with a value. Flattening this image is like unweaving a fabric into a single, long thread. This process, however, loses the spatial structure of the image - the 'where' of each pixel in relation to others.
 
-![[pixels-to-neurons.gif]]
+![pixels-to-neurons](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/0073fec1-8e53-409e-8403-e30d47403596)
 
 #### Visualization: 
 - Imagine a grid representing an image.
@@ -16,20 +18,22 @@ In ANNs, the input data is typically "flattened." Picture a 2D image - a grid of
 
 CNNs keep the image in its 2D form. They use a process called convolution, which is like having a small window (a filter) glide over the image, focusing on one small area at a time.
 
-![[CNN-filter-animation-1.gif]]
+![CNN-filter-animation-1](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/39d30dc7-6de0-448e-a1e9-3effb028e246)
+
 #### How it Works:
 - The filter (a small matrix) moves across the image.
 - At each step, it mathematically combines the values of the pixels under it with its own weights, creating a new matrix - the feature map. ( matrix multiplication )
 - This process highlights features like edges, textures, etc.
 
-![[Pasted image 20231129234638.png]]
+![image](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/93ac79df-f541-4aa3-89a8-bc66ddc6ca5c)
 _highlighting different features using different filters_
 
 ### Multiple Convolution Layers in CNNs
 
 - **Building Complexity**: In a CNN, using multiple convolution layers is the same as constructing a hierarchy of feature detection. Each layer builds upon the previous one, extracting increasingly complex features from the input image.
 - **Visualizing Layer Progression**: Picture an image moving through layers of a CNN. The first layer acts like a set of eyes, each looking for simple patterns, such as edges or basic textures. As the image progresses through subsequent layers, the features detected become more complex. It's like starting from a sketch and gradually filling in the details.
-- ![[Pasted image 20231129234317.png]]
+- ![image](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/6b8f4d03-4ec7-4af6-8a55-60aa2b6e0f2f)
+
 #### Example with OCR:
 - Think about recognizing handwritten digits.
 - Early layers might detect edges and simple shapes.
@@ -47,7 +51,8 @@ ReLU is an activation function that adds non-linearity. It's like an artist enha
 
 Pooling reduces the size of feature maps but keeps the essential information. Max pooling, for example, takes the largest value in a small region of the feature map.
 
-![[Pasted image 20231129235046.png]]
+![1_lRVHY6UXH7K5sfr9L_YVvg](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/fc7c1ec0-af5c-46f1-a018-14e47a2bc057)
+
 #### Why It Matters:
 - It makes the network less sensitive to small variations and distortions in the image.
 - Imagine a slightly tilted digit; max pooling still captures the essential features.
