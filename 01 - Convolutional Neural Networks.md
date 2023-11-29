@@ -6,7 +6,7 @@ Imagine you're looking at a picture, trying to recognize what's in it. Your brai
 
 ### Traditional ANNs and the Issue of Flattening
 
-In ANNs, the input data is typically "flattened." Picture a 2D image - a grid of pixels, each with a value. Flattening this image is like unweaving a fabric into a single, long thread. This process, however, loses the spatial structure of the image - the 'where' of each pixel in relation to others.
+In Artificial Neural Networks (ANNs), the process of "flattening" is commonly applied to the input data. Imagine a 2D image as a grid composed of individual pixels, each holding a specific value. When this image is flattened, it's akin to unraveling a woven fabric into a single, extended thread. Such a transformation, though, results in the loss of the image's spatial structure, essentially disregarding the relative positions of each pixel to one another.
 
 ![pixels-to-neurons](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/0073fec1-8e53-409e-8403-e30d47403596)
 
