@@ -1,6 +1,6 @@
 # 01 - Convolutional Neural Networks
 
-![image](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/73b33f7a-534e-4fc8-83da-9f7be8ab61a2)
+![image](https://github.com/Jerome-Joseph-1/Convolutional-Neural-Networks-An-Introduction/assets/82434071/8d00bf00-dd9a-4829-a822-caaf8e3cff50)
 
 Imagine you're looking at a picture, trying to recognize what's in it. Your brain doesn't just see a bunch of pixels; it recognizes patterns, shapes, edges, and textures. This is similar to how CNNs process images, but first, let's contrast this with how traditional Artificial Neural Networks (ANNs) work.
 
