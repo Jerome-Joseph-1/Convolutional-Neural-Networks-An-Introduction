@@ -1,4 +1,4 @@
-# 02 ResNet-50
+# 02 - ResNet-50
 ### ResNet-50: Overcoming Deep Learning's Hurdle
 
 Imagine a CNN as a sophisticated tool for pattern recognition, evolving its understanding layer by layer. Now, enter ResNet-50, a specialized form of this tool, designed to delve deeper without losing clarity.
